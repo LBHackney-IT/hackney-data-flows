@@ -2,7 +2,6 @@ require 'open3'
 
 module GraphViz
   def self.generateFullGraph(systems)
-    puts "Creating graph"
     graphData = diagraph do
       output = []
       systems.group_by(&:type).each do |type, systems|
