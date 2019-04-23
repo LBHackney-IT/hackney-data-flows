@@ -7,6 +7,9 @@ module GraphViz
       output = []
       systems.group_by(&:type).each do |type, systems|
         output << "subgraph cluster_#{type} {"
+        output << 'style="filled";'
+        output << "color=lightgrey;"
+        output << "node [style=filled,fillcolor=white];"
         output << 'rank="same"'
         output << systems.map{ |s| systemNodeName(s) }
         output << '}'
