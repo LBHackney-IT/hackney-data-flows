@@ -11,20 +11,20 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-161 1161.9385,-161 1161.9385,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-11 8,-73 115.124,-73 115.124,-11 8,-11"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-11 8,-73 115.124,-73 115.124,-11 8,-11"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="951.8242,-8 951.8242,-117 1117.9385,-117 1117.9385,-8 951.8242,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="951.8242,-8 951.8242,-117 1117.9385,-117 1117.9385,-8 951.8242,-8"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="459.124,-17 459.124,-71 607.8242,-71 607.8242,-17 459.124,-17"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="459.124,-17 459.124,-71 607.8242,-71 607.8242,-17 459.124,-17"/>
 </g>
 <!-- drs -->
 <g id="node1" class="node">
 <title>drs</title>
-<polygon fill="none" stroke="#000000" points="16,-20 16,-64 107.124,-64 107.124,-20 16,-20"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-20 16,-64 107.124,-64 107.124,-20 16,-20"/>
 <text text-anchor="middle" x="37.6172" y="-37.8" font-family="Times,serif" font-size="14.00" fill="#000000">DRS</text>
 <polyline fill="none" stroke="#000000" points="59.2344,-20 59.2344,-64 "/>
 <text text-anchor="middle" x="83.1792" y="-48.8" font-family="Times,serif" font-size="14.00" fill="#000000">s_job</text>
@@ -34,13 +34,13 @@
 <!-- report_a_repair_service -->
 <g id="node2" class="node">
 <title>report_a_repair_service</title>
-<polygon fill="none" stroke="#000000" points="959.8242,-72 959.8242,-108 1109.9385,-108 1109.9385,-72 959.8242,-72"/>
+<polygon fill="#ffffff" stroke="#000000" points="959.8242,-72 959.8242,-108 1109.9385,-108 1109.9385,-72 959.8242,-72"/>
 <text text-anchor="middle" x="1034.8813" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Report a Repair Service</text>
 </g>
 <!-- repairs_api -->
 <g id="node4" class="node">
 <title>repairs_api</title>
-<polygon fill="none" stroke="#000000" points="467.124,-26 467.124,-62 599.8242,-62 599.8242,-26 467.124,-26"/>
+<polygon fill="#ffffff" stroke="#000000" points="467.124,-26 467.124,-62 599.8242,-62 599.8242,-26 467.124,-26"/>
 <text text-anchor="middle" x="509.1533" y="-39.8" font-family="Times,serif" font-size="14.00" fill="#000000">Repairs API</text>
 <polyline fill="none" stroke="#000000" points="551.1826,-26 551.1826,-62 "/>
 <text text-anchor="middle" x="575.5034" y="-39.8" font-family="Times,serif" font-size="14.00" fill="#000000">repair</text>
@@ -54,7 +54,7 @@
 <!-- repairs_hub -->
 <g id="node3" class="node">
 <title>repairs_hub</title>
-<polygon fill="none" stroke="#000000" points="991.6934,-17 991.6934,-53 1078.0693,-53 1078.0693,-17 991.6934,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="991.6934,-17 991.6934,-53 1078.0693,-53 1078.0693,-17 991.6934,-17"/>
 <text text-anchor="middle" x="1034.8813" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Repairs Hub</text>
 </g>
 <!-- repairs_hub&#45;&gt;repairs_api -->

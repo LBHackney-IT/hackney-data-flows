@@ -11,16 +11,16 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-106 694.5791,-106 694.5791,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-62 211.1689,-62 211.1689,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-62 211.1689,-62 211.1689,-8 8,-8"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="555.1689,-8 555.1689,-62 650.5791,-62 650.5791,-8 555.1689,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="555.1689,-8 555.1689,-62 650.5791,-62 650.5791,-8 555.1689,-8"/>
 </g>
 <!-- hackney_api -->
 <g id="node1" class="node">
 <title>hackney_api</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-53 203.1689,-53 203.1689,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-53 203.1689,-53 203.1689,-17 16,-17"/>
 <text text-anchor="middle" x="61.5225" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Hackney API</text>
 <polyline fill="none" stroke="#000000" points="107.0449,-17 107.0449,-53 "/>
 <text text-anchor="middle" x="155.1069" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">CRMLookups</text>
@@ -28,7 +28,7 @@
 <!-- ncc_crm -->
 <g id="node2" class="node">
 <title>ncc_crm</title>
-<polygon fill="none" stroke="#000000" points="563.1689,-17 563.1689,-53 642.5791,-53 642.5791,-17 563.1689,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="563.1689,-17 563.1689,-53 642.5791,-53 642.5791,-17 563.1689,-17"/>
 <text text-anchor="middle" x="602.874" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">NCC CRM</text>
 </g>
 <!-- ncc_crm&#45;&gt;hackney_api -->

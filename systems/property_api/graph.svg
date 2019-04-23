@@ -11,22 +11,22 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-429 633.4795,-429 633.4795,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="483.9727,-331 483.9727,-385 589.4795,-385 589.4795,-331 483.9727,-331"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="483.9727,-331 483.9727,-385 589.4795,-385 589.4795,-331 483.9727,-331"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-378 139.9727,-378 139.9727,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-378 139.9727,-378 139.9727,-8 8,-8"/>
 </g>
 <!-- property_api -->
 <g id="node1" class="node">
 <title>property_api</title>
-<polygon fill="none" stroke="#000000" points="491.9727,-340 491.9727,-376 581.4795,-376 581.4795,-340 491.9727,-340"/>
+<polygon fill="#ffffff" stroke="#000000" points="491.9727,-340 491.9727,-376 581.4795,-376 581.4795,-340 491.9727,-340"/>
 <text text-anchor="middle" x="536.7261" y="-353.8" font-family="Times,serif" font-size="14.00" fill="#000000">Property API</text>
 </g>
 <!-- uht -->
 <g id="node2" class="node">
 <title>uht</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-369 131.9727,-369 131.9727,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-369 131.9727,-369 131.9727,-17 16,-17"/>
 <text text-anchor="middle" x="38.3862" y="-188.8" font-family="Times,serif" font-size="14.00" fill="#000000">UHT</text>
 <polyline fill="none" stroke="#000000" points="60.7725,-17 60.7725,-369 "/>
 <text text-anchor="middle" x="96.3726" y="-353.8" font-family="Times,serif" font-size="14.00" fill="#000000">property</text>

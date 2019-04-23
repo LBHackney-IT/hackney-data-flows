@@ -11,22 +11,22 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-422 656.3115,-422 656.3115,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="483.9727,-177 483.9727,-231 612.3115,-231 612.3115,-177 483.9727,-177"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="483.9727,-177 483.9727,-231 612.3115,-231 612.3115,-177 483.9727,-177"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-378 139.9727,-378 139.9727,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-378 139.9727,-378 139.9727,-8 8,-8"/>
 </g>
 <!-- transactions_api -->
 <g id="node1" class="node">
 <title>transactions_api</title>
-<polygon fill="none" stroke="#000000" points="491.9727,-186 491.9727,-222 604.3115,-222 604.3115,-186 491.9727,-186"/>
+<polygon fill="#ffffff" stroke="#000000" points="491.9727,-186 491.9727,-222 604.3115,-222 604.3115,-186 491.9727,-186"/>
 <text text-anchor="middle" x="548.1421" y="-199.8" font-family="Times,serif" font-size="14.00" fill="#000000">Transactions API</text>
 </g>
 <!-- uht -->
 <g id="node2" class="node">
 <title>uht</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-369 131.9727,-369 131.9727,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-369 131.9727,-369 131.9727,-17 16,-17"/>
 <text text-anchor="middle" x="38.3862" y="-188.8" font-family="Times,serif" font-size="14.00" fill="#000000">UHT</text>
 <polyline fill="none" stroke="#000000" points="60.7725,-17 60.7725,-369 "/>
 <text text-anchor="middle" x="96.3726" y="-353.8" font-family="Times,serif" font-size="14.00" fill="#000000">property</text>

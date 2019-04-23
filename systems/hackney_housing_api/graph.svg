@@ -11,20 +11,20 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-106 1249.8965,-106 1249.8965,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-62 209.2207,-62 209.2207,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-62 209.2207,-62 209.2207,-8 8,-8"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="1074.3447,-8 1074.3447,-62 1205.8965,-62 1205.8965,-8 1074.3447,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="1074.3447,-8 1074.3447,-62 1205.8965,-62 1205.8965,-8 1074.3447,-8"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="553.2207,-8 553.2207,-62 730.3447,-62 730.3447,-8 553.2207,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="553.2207,-8 553.2207,-62 730.3447,-62 730.3447,-8 553.2207,-8"/>
 </g>
 <!-- hackney_housing_api -->
 <g id="node1" class="node">
 <title>hackney_housing_api</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-53 201.2207,-53 201.2207,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-53 201.2207,-53 201.2207,-17 16,-17"/>
 <text text-anchor="middle" x="86.9966" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Hackney Housing API</text>
 <polyline fill="none" stroke="#000000" points="157.9932,-17 157.9932,-53 "/>
 <text text-anchor="middle" x="179.6069" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>
@@ -32,13 +32,13 @@
 <!-- my_rent_account -->
 <g id="node2" class="node">
 <title>my_rent_account</title>
-<polygon fill="none" stroke="#000000" points="1082.3447,-17 1082.3447,-53 1197.8965,-53 1197.8965,-17 1082.3447,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="1082.3447,-17 1082.3447,-53 1197.8965,-53 1197.8965,-17 1082.3447,-17"/>
 <text text-anchor="middle" x="1140.1206" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">My Rent Account</text>
 </g>
 <!-- rent_account_api -->
 <g id="node3" class="node">
 <title>rent_account_api</title>
-<polygon fill="none" stroke="#000000" points="561.2207,-17 561.2207,-53 722.3447,-53 722.3447,-17 561.2207,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="561.2207,-17 561.2207,-53 722.3447,-53 722.3447,-17 561.2207,-17"/>
 <text text-anchor="middle" x="620.1689" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Rent Account API</text>
 <polyline fill="none" stroke="#000000" points="679.1172,-17 679.1172,-53 "/>
 <text text-anchor="middle" x="700.731" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>

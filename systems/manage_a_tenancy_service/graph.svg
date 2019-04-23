@@ -11,22 +11,22 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-106 784.5469,-106 784.5469,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="557.7939,-8 557.7939,-62 740.5469,-62 740.5469,-8 557.7939,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="557.7939,-8 557.7939,-62 740.5469,-62 740.5469,-8 557.7939,-8"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-62 213.7939,-62 213.7939,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-62 213.7939,-62 213.7939,-8 8,-8"/>
 </g>
 <!-- manage_a_tenancy_service -->
 <g id="node1" class="node">
 <title>manage_a_tenancy_service</title>
-<polygon fill="none" stroke="#000000" points="565.7939,-17 565.7939,-53 732.5469,-53 732.5469,-17 565.7939,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="565.7939,-17 565.7939,-53 732.5469,-53 732.5469,-17 565.7939,-17"/>
 <text text-anchor="middle" x="649.1704" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Manage a Tenancy Service</text>
 </g>
 <!-- manage_a_tenancy_api -->
 <g id="node2" class="node">
 <title>manage_a_tenancy_api</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-53 205.7939,-53 205.7939,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-53 205.7939,-53 205.7939,-17 16,-17"/>
 <text text-anchor="middle" x="89.2832" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Manage a Tenancy API</text>
 <polyline fill="none" stroke="#000000" points="162.5664,-17 162.5664,-53 "/>
 <text text-anchor="middle" x="184.1802" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>

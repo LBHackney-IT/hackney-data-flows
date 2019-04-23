@@ -11,20 +11,20 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-628 1249.8965,-628 1249.8965,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="553.2207,-394 553.2207,-448 730.3447,-448 730.3447,-394 553.2207,-394"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="553.2207,-394 553.2207,-448 730.3447,-448 730.3447,-394 553.2207,-394"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-584 209.2207,-584 209.2207,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-584 209.2207,-584 209.2207,-8 8,-8"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="1074.3447,-394 1074.3447,-448 1205.8965,-448 1205.8965,-394 1074.3447,-394"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="1074.3447,-394 1074.3447,-448 1205.8965,-448 1205.8965,-394 1074.3447,-394"/>
 </g>
 <!-- rent_account_api -->
 <g id="node1" class="node">
 <title>rent_account_api</title>
-<polygon fill="none" stroke="#000000" points="561.2207,-403 561.2207,-439 722.3447,-439 722.3447,-403 561.2207,-403"/>
+<polygon fill="#ffffff" stroke="#000000" points="561.2207,-403 561.2207,-439 722.3447,-439 722.3447,-403 561.2207,-403"/>
 <text text-anchor="middle" x="620.1689" y="-416.8" font-family="Times,serif" font-size="14.00" fill="#000000">Rent Account API</text>
 <polyline fill="none" stroke="#000000" points="679.1172,-403 679.1172,-439 "/>
 <text text-anchor="middle" x="700.731" y="-416.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>
@@ -32,7 +32,7 @@
 <!-- hackney_housing_api -->
 <g id="node2" class="node">
 <title>hackney_housing_api</title>
-<polygon fill="none" stroke="#000000" points="16,-539 16,-575 201.2207,-575 201.2207,-539 16,-539"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-539 16,-575 201.2207,-575 201.2207,-539 16,-539"/>
 <text text-anchor="middle" x="86.9966" y="-552.8" font-family="Times,serif" font-size="14.00" fill="#000000">Hackney Housing API</text>
 <polyline fill="none" stroke="#000000" points="157.9932,-539 157.9932,-575 "/>
 <text text-anchor="middle" x="179.6069" y="-552.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>
@@ -46,7 +46,7 @@
 <!-- crm -->
 <g id="node3" class="node">
 <title>crm</title>
-<polygon fill="none" stroke="#000000" points="36.0327,-388 36.0327,-520 181.188,-520 181.188,-388 36.0327,-388"/>
+<polygon fill="#ffffff" stroke="#000000" points="36.0327,-388 36.0327,-520 181.188,-520 181.188,-388 36.0327,-388"/>
 <text text-anchor="middle" x="59.5947" y="-449.8" font-family="Times,serif" font-size="14.00" fill="#000000">CRM</text>
 <polyline fill="none" stroke="#000000" points="83.1567,-388 83.1567,-520 "/>
 <text text-anchor="middle" x="132.1724" y="-504.8" font-family="Times,serif" font-size="14.00" fill="#000000">Contact</text>
@@ -88,7 +88,7 @@
 <!-- uht -->
 <g id="node4" class="node">
 <title>uht</title>
-<polygon fill="none" stroke="#000000" points="50.624,-17 50.624,-369 166.5967,-369 166.5967,-17 50.624,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="50.624,-17 50.624,-369 166.5967,-369 166.5967,-17 50.624,-17"/>
 <text text-anchor="middle" x="73.0103" y="-188.8" font-family="Times,serif" font-size="14.00" fill="#000000">UHT</text>
 <polyline fill="none" stroke="#000000" points="95.3965,-17 95.3965,-369 "/>
 <text text-anchor="middle" x="130.9966" y="-353.8" font-family="Times,serif" font-size="14.00" fill="#000000">property</text>
@@ -138,7 +138,7 @@
 <!-- my_rent_account -->
 <g id="node5" class="node">
 <title>my_rent_account</title>
-<polygon fill="none" stroke="#000000" points="1082.3447,-403 1082.3447,-439 1197.8965,-439 1197.8965,-403 1082.3447,-403"/>
+<polygon fill="#ffffff" stroke="#000000" points="1082.3447,-403 1082.3447,-439 1197.8965,-439 1197.8965,-403 1082.3447,-403"/>
 <text text-anchor="middle" x="1140.1206" y="-416.8" font-family="Times,serif" font-size="14.00" fill="#000000">My Rent Account</text>
 </g>
 <!-- my_rent_account&#45;&gt;rent_account_api -->

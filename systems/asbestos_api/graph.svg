@@ -11,22 +11,22 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-224 667.3516,-224 667.3516,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="515.5,-67 515.5,-121 623.3516,-121 623.3516,-67 515.5,-67"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="515.5,-67 515.5,-121 623.3516,-121 623.3516,-67 515.5,-67"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-180 171.5,-180 171.5,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-180 171.5,-180 171.5,-8 8,-8"/>
 </g>
 <!-- asbestos_api -->
 <g id="node1" class="node">
 <title>asbestos_api</title>
-<polygon fill="none" stroke="#000000" points="523.5,-76 523.5,-112 615.3516,-112 615.3516,-76 523.5,-76"/>
+<polygon fill="#ffffff" stroke="#000000" points="523.5,-76 523.5,-112 615.3516,-112 615.3516,-76 523.5,-76"/>
 <text text-anchor="middle" x="569.4258" y="-89.8" font-family="Times,serif" font-size="14.00" fill="#000000">Asbestos API</text>
 </g>
 <!-- psi_2000 -->
 <g id="node2" class="node">
 <title>psi_2000</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-171 163.5,-171 163.5,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-171 163.5,-171 163.5,-17 16,-17"/>
 <text text-anchor="middle" x="49.8672" y="-89.8" font-family="Times,serif" font-size="14.00" fill="#000000">PSI 2000</text>
 <polyline fill="none" stroke="#000000" points="83.7344,-17 83.7344,-171 "/>
 <text text-anchor="middle" x="123.6172" y="-155.8" font-family="Times,serif" font-size="14.00" fill="#000000">Inspections</text>

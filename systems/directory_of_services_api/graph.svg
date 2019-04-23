@@ -11,12 +11,12 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-106 229.0244,-106 229.0244,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="8,-8 8,-62 185.0244,-62 185.0244,-8 8,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-8 8,-62 185.0244,-62 185.0244,-8 8,-8"/>
 </g>
 <!-- directory_of_services_api -->
 <g id="node1" class="node">
 <title>directory_of_services_api</title>
-<polygon fill="none" stroke="#000000" points="16,-17 16,-53 177.0244,-53 177.0244,-17 16,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-17 16,-53 177.0244,-53 177.0244,-17 16,-17"/>
 <text text-anchor="middle" x="96.5122" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">Directory of Services API</text>
 </g>
 </g>

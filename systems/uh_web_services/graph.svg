@@ -11,20 +11,20 @@
 <polygon fill="#ffffff" stroke="transparent" points="-36,36 -36,-239.6335 1840.8154,-239.6335 1840.8154,36 -36,36"/>
 <g id="clust1" class="cluster">
 <title>cluster_dependency</title>
-<polygon fill="none" stroke="#000000" points="8,-50 8,-112 229.1953,-112 229.1953,-50 8,-50"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="8,-50 8,-112 229.1953,-112 229.1953,-50 8,-50"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_services</title>
-<polygon fill="none" stroke="#000000" points="1615.5322,-8 1615.5322,-172 1796.8154,-172 1796.8154,-8 1615.5322,-8"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="1615.5322,-8 1615.5322,-172 1796.8154,-172 1796.8154,-8 1615.5322,-8"/>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_apis</title>
-<polygon fill="none" stroke="#000000" points="573.1953,-18 573.1953,-165 1271.5322,-165 1271.5322,-18 573.1953,-18"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="573.1953,-18 573.1953,-165 1271.5322,-165 1271.5322,-18 573.1953,-18"/>
 </g>
 <!-- uh_web_services -->
 <g id="node1" class="node">
 <title>uh_web_services</title>
-<polygon fill="none" stroke="#000000" points="16,-59 16,-103 221.1953,-103 221.1953,-59 16,-59"/>
+<polygon fill="#ffffff" stroke="#000000" points="16,-59 16,-103 221.1953,-103 221.1953,-59 16,-59"/>
 <text text-anchor="middle" x="73.8579" y="-76.8" font-family="Times,serif" font-size="14.00" fill="#000000">UH Web Services</text>
 <polyline fill="none" stroke="#000000" points="131.7158,-59 131.7158,-103 "/>
 <text text-anchor="middle" x="176.4556" y="-87.8" font-family="Times,serif" font-size="14.00" fill="#000000">TBC</text>
@@ -34,13 +34,13 @@
 <!-- my_rent_account -->
 <g id="node2" class="node">
 <title>my_rent_account</title>
-<polygon fill="none" stroke="#000000" points="1648.3979,-72 1648.3979,-108 1763.9497,-108 1763.9497,-72 1648.3979,-72"/>
+<polygon fill="#ffffff" stroke="#000000" points="1648.3979,-72 1648.3979,-108 1763.9497,-108 1763.9497,-72 1648.3979,-72"/>
 <text text-anchor="middle" x="1706.1738" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">My Rent Account</text>
 </g>
 <!-- ncc_api -->
 <g id="node6" class="node">
 <title>ncc_api</title>
-<polygon fill="none" stroke="#000000" points="1104.1855,-27 1104.1855,-71 1257.1338,-71 1257.1338,-27 1104.1855,-27"/>
+<polygon fill="#ffffff" stroke="#000000" points="1104.1855,-27 1104.1855,-71 1257.1338,-71 1257.1338,-27 1104.1855,-27"/>
 <text text-anchor="middle" x="1139.2251" y="-44.8" font-family="Times,serif" font-size="14.00" fill="#000000">NCC API</text>
 <polyline fill="none" stroke="#000000" points="1174.2646,-27 1174.2646,-71 "/>
 <text text-anchor="middle" x="1215.6992" y="-55.8" font-family="Times,serif" font-size="14.00" fill="#000000">transactions</text>
@@ -56,7 +56,7 @@
 <!-- ncc_crm -->
 <g id="node3" class="node">
 <title>ncc_crm</title>
-<polygon fill="none" stroke="#000000" points="1666.4688,-17 1666.4688,-53 1745.8789,-53 1745.8789,-17 1666.4688,-17"/>
+<polygon fill="#ffffff" stroke="#000000" points="1666.4688,-17 1666.4688,-53 1745.8789,-53 1745.8789,-17 1666.4688,-17"/>
 <text text-anchor="middle" x="1706.1738" y="-30.8" font-family="Times,serif" font-size="14.00" fill="#000000">NCC CRM</text>
 </g>
 <!-- ncc_crm&#45;&gt;ncc_api -->
@@ -68,13 +68,13 @@
 <!-- income_collection_service -->
 <g id="node4" class="node">
 <title>income_collection_service</title>
-<polygon fill="none" stroke="#000000" points="1623.5322,-127 1623.5322,-163 1788.8154,-163 1788.8154,-127 1623.5322,-127"/>
+<polygon fill="#ffffff" stroke="#000000" points="1623.5322,-127 1623.5322,-163 1788.8154,-163 1788.8154,-127 1623.5322,-127"/>
 <text text-anchor="middle" x="1706.1738" y="-140.8" font-family="Times,serif" font-size="14.00" fill="#000000">Income Collection Service</text>
 </g>
 <!-- income_api -->
 <g id="node5" class="node">
 <title>income_api</title>
-<polygon fill="none" stroke="#000000" points="1097.7871,-90 1097.7871,-156 1263.5322,-156 1263.5322,-90 1097.7871,-90"/>
+<polygon fill="#ffffff" stroke="#000000" points="1097.7871,-90 1097.7871,-156 1263.5322,-156 1263.5322,-90 1097.7871,-90"/>
 <text text-anchor="middle" x="1139.4233" y="-118.8" font-family="Times,serif" font-size="14.00" fill="#000000">Income API</text>
 <polyline fill="none" stroke="#000000" points="1181.0596,-90 1181.0596,-156 "/>
 <text text-anchor="middle" x="1222.2959" y="-140.8" font-family="Times,serif" font-size="14.00" fill="#000000">users</text>
@@ -104,7 +104,7 @@
 <!-- tenancy_api -->
 <g id="node7" class="node">
 <title>tenancy_api</title>
-<polygon fill="none" stroke="#000000" points="581.1953,-101 581.1953,-145 737.7871,-145 737.7871,-101 581.1953,-101"/>
+<polygon fill="#ffffff" stroke="#000000" points="581.1953,-101 581.1953,-145 737.7871,-145 737.7871,-101 581.1953,-101"/>
 <text text-anchor="middle" x="625.4497" y="-118.8" font-family="Times,serif" font-size="14.00" fill="#000000">Tenancy API</text>
 <polyline fill="none" stroke="#000000" points="669.7041,-101 669.7041,-145 "/>
 <text text-anchor="middle" x="703.7456" y="-129.8" font-family="Times,serif" font-size="14.00" fill="#000000">tenancies</text>
