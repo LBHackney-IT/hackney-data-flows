@@ -1,9 +1,0 @@
-name: Service Charge API
-repository: https://github.com/LBHackney-IT/service-charge-api
-maintainers:
-- Selwyn Preston <selwyn.preston@hackney.gov.uk>
-- Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
-- Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
-- Miguel Saitz <miguel.saitz@hackney.gov.uk>
-- Cormac Brady <cormac@madetech.com>
-#dependencies:

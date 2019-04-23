@@ -1,5 +1,0 @@
-name: Report a Repair Service
-repository: https://github.com/LBHackney-IT/report-a-repair-dashboard
-dependencies:
-  Repairs API:
-  - repair

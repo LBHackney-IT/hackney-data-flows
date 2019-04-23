@@ -1,9 +1,0 @@
-name: NCC CRM
-repository: https://github.com/LBHackney-IT/NCC
-dependencies:
-  Hackney API:
-  - "CRMLookups"
-  NCC API:
-  - TBC
-  Manage a Tenancy API:
-  - TBC
