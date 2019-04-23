@@ -3,6 +3,7 @@ exclude:
 - generate.rb
 - Gemfile
 - Gemfile.lock
+- .gitignore
 system_mapping:
   enabled: true
   system_maps:
