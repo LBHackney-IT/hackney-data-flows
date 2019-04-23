@@ -1,0 +1,13 @@
+name: Transactions API
+repository: https://github.com/LBHackney-IT/transactions-api
+maintainers:
+- Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
+- Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
+- Miguel Saitz <miguel.saitz@hackney.gov.uk>
+- Selwyn Preston <selwyn.preston@hackney.gov.uk>
+- Cormac Brady <cormac@madetech.com>
+dependencies:
+  UHT:
+  - rtrans
+  - debtype
+  - rectype

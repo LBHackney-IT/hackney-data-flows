@@ -1,0 +1,10 @@
+name: Property API
+repository: https://github.com/LBHackney-IT/property-api
+maintainers:
+- Selwyn Preston <selwyn.preston@hackney.gov.uk>
+- Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
+- Miguel Saitz <miguel.saitz@hackney.gov.uk>
+- Cormac Brady <cormac@madetech.com>
+dependencies:
+  UHT:
+  - property

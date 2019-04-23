@@ -1,0 +1,7 @@
+name: My Rent Account
+repository: Unknown
+dependencies:
+  Rent Account API:
+  - TBC
+  NCC API:
+  - transactions

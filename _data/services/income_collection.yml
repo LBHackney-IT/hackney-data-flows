@@ -1,0 +1,11 @@
+name: Income Collection Service
+repository: https://github.com/LBHackney-IT/LBH-IncomeCollection
+dependencies:
+  Income API:
+  - users
+  - worktray
+  - action diary
+  Tenancy API:
+  - tenancies
+  - contacts
+  

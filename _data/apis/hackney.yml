@@ -1,0 +1,5 @@
+name: Hackney API
+repository: https://github.com/LBHackney-IT/HackneyAPI
+maintainers:
+- Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
+#dependencies:

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h2>Systems</h2>
+
+<ul>
+{% for page in site.pages %}
+  {% if page.type == 'system' %}
+    <li><a href="{{ page.url}}">{{page.title}}</a> - {{page.type}}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<img src="systems/full_graph.svg" width="100%">

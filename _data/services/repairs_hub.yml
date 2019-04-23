@@ -1,0 +1,6 @@
+name: Repairs Hub
+repository: https://github.com/LBHackney-IT/repairs-management
+dependencies:
+  Repairs API:
+  - repair
+  

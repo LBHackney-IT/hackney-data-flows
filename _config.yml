@@ -1,0 +1,10 @@
+title: Systems Mapping for Hackney
+exclude:
+- generate.rb
+- Gemfile
+- Gemfile.lock
+system_mapping:
+  enabled: true
+  system_maps:
+  - apis
+  - services

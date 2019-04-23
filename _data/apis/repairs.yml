@@ -1,0 +1,34 @@
+name: Repairs API
+repository: https://github.com/LBHackney-IT/Hackney_Repairs_API
+maintainers:
+- Miguel Saitz <miguel.saitz@hackney.gov.uk>
+- Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
+dependencies:
+  DRS:
+  - s_job
+  - p_job
+  Mobile Reports:
+  - Processed
+  - Unprocessed
+  UH Warehouse:
+  - property
+  - lulevel
+  - rmreqst
+  - rmworder
+  - rmtask
+  - rmtrade
+  - W2ObjectNote
+  UHT:
+  - rmworder
+  - rmtask
+  - rmreqst
+  - visit
+  - supplier
+  UHW:
+  - usp_StartHackneyProcessV2
+  - W2ObjectNote
+  - ws_addNoteToOrder
+  Base Data Service:
+  - TBC
+  CRM:
+  - Contacts
