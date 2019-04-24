@@ -26,12 +26,17 @@ class System
     self.type = "dependency"
   end
 
+  def url
+    "#{@url_prefix}#{id}"
+  end
+
   def configure(options)
     self.id ||= options['id']
+    @url_prefix ||= options['url_prefix']
     
     if options.has_key? 'dependencies'
       options['dependencies'].each do |name, entities|
-        dep_sys = System.create_system('name' => name)
+        dep_sys = System.create_system('name' => name, 'url_prefix' => @url_prefix)
         entities.each do |entity|
           new_entity = dep_sys.addEntity(entity)
           self.addLink(new_entity)

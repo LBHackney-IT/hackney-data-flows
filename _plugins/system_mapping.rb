@@ -45,12 +45,15 @@ module Jekyll
 
     def generate(site)
       return unless site.config['system_mapping'] && site.config['system_mapping']['enabled']
-      
+
+      system_path = 'systems'
+
       if site.config['system_mapping']['system_maps'] && site.config['system_mapping']['system_maps'].length > 0
         site.config['system_mapping']['system_maps'].each do |system_type|
           if site.data[system_type]
             site.data[system_type].each do |system_id, system_data|
               system_data['id'] = "#{system_type}_#{system_id}"
+              system_data['url_prefix'] = "#{site.config['baseurl']}/#{system_path}/"
               sys = System.create_system(system_data)
               sys.type = system_type
             end
@@ -58,7 +61,7 @@ module Jekyll
         end
       end
 
-      file = GraphFile.new(site, 'systems', 'full_graph.svg', System.systems)
+      file = GraphFile.new(site, system_path, 'full_graph.svg', System.systems)
       site.static_files << file
       
       

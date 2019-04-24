@@ -39,9 +39,9 @@ module GraphViz
 
   def self.systemNodeName(system, options={})
     if system.entities.length > 0
-      "#{system.id} [URL=\"/hackney-data-flows/systems/#{system.id}\" label=\"{#{system.name} | {#{system.entities.map{ |e| entityNodeName(e) }.join('|')}}}\"];"
+      "#{system.id} [URL=\"#{system.url}\" label=\"{#{system.name} | {#{system.entities.map{ |e| entityNodeName(e) }.join('|')}}}\"];"
     else
-      "#{system.id} [URL=\"/hackney-data-flows/systems/#{system.id}\" label=\"#{system.name}\"];"
+      "#{system.id} [URL=\"#{system.url}\" label=\"#{system.name}\"];"
     end
   end
 
