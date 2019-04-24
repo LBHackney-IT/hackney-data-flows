@@ -1,0 +1,28 @@
+body{
+  padding:10px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1{
+  font-size: 200%;
+  font-weight: bold;
+  margin:10px 0;
+}
+
+h2{
+  font-size: 170%;
+  font-weight: bold;
+  margin:10px 0;
+  color:#333;
+}
+
+svg{
+  height:inherit;
+  width:inherit;
+  max-width: 100%;
+}
+
+header a{
+  text-decoration: none;
+  color:#000;
+}
