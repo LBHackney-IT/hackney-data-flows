@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/reset.css">
-        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="{{ '/assets/reset.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
     </head>
     <body class="default">
       <header>
-        <h1>{{ site.title}}</h1>
+        <a href="{{ '/' | relative_url }}"><h1>{{ site.title}}</h1></a>
       </header>
       <main>
         {{ content }}

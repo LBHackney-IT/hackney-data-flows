@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>Systems</h2>
+<!--h2>Systems</h2>
 
 <ul>
 {% for page in site.pages %}
@@ -10,6 +10,11 @@ layout: default
     <li><a href="{{ page.url | relative_url }}">{{page.title}}</a></li>
   {% endif %}
 {% endfor %}
-</ul>
+</ul-->
 
-<img src="systems/full_graph.svg" width="100%">
+
+{% for file in site.static_files %}
+  {% if file.type == 'full_graph' %}
+    {% graphviz %}{{ file.graph }}{% endgraphviz %}
+  {% endif %}
+{% endfor %}

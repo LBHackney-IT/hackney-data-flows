@@ -9,17 +9,27 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-
       self.data = {}
       self.data['layout'] = 'system'
       self.data['title'] = system.name
       self.data['type'] = 'system'
       self.data['system'] = system
+      self.data['graph'] = GraphViz::generateDot(system.dependencies)
       true
     end
   end
 
   class GraphFile < StaticFile
+    attr_accessor :data
+    
+    def initialize(site, path, filename, systems)
+      super(site, site.source, path, filename)
+      self.data = {'type' => 'full_graph'}
+      self.data['foo'] = 'hello'
+      self.data['graph'] = GraphViz::generateDot(systems)
+      @fileData = data = GraphViz::generateFullGraph(systems)
+    end
+    
     def write(dest)
       dest_path = destination(dest)
 
@@ -27,10 +37,6 @@ module Jekyll
       FileUtils.rm(dest_path) if File.exist?(dest_path)
       File.open(dest_path, 'w') { |file| file.write(@fileData) }
       true
-    end
-    
-    def setFileData(data)
-      @fileData = data
     end
   end
 
@@ -52,20 +58,13 @@ module Jekyll
         end
       end
 
-      graphData = GraphViz::generateFullGraph(System.systems)
-      file = GraphFile.new(site, site.source, 'systems', 'full_graph.svg')
-      file.setFileData(graphData)
+      file = GraphFile.new(site, 'systems', 'full_graph.svg', System.systems)
       site.static_files << file
-
+      
+      
       System.systems.each do |sys|
         site.pages << SystemPage.new(site, sys)
-
-        graphData = GraphViz::generateSingleGraph(sys)
-        file = GraphFile.new(site, site.source, 'systems/' + sys.id, 'graph.svg')
-        file.setFileData(graphData)
-        site.static_files << file
       end
-
     end
   end
 end

@@ -1,4 +1,4 @@
-title: Systems Mapping for Hackney
+title: Hackney Systems Mapping
 baseurl: /hackney-data-flows
 exclude:
 - generate.rb
@@ -10,3 +10,11 @@ system_mapping:
   system_maps:
   - apis
   - services
+plugins:
+- jekyll-diagrams
+diagrams:
+  graphviz:
+    engine: dot
+    options: '-Tsvg'
+  diag:
+    options: '-Tsvg --nodoctype'
