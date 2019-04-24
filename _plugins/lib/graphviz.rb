@@ -58,7 +58,7 @@ module GraphViz
   end
   
   def self.diagraph &block
-    return %|digraph G {\nnode [shape=record];\ngraph [pad="0.5", ranksep="5"];\nrankdir=RL;\n#{block.call}\n}|
+    return %|digraph G {\nnode [shape=record];\ngraph [pad="0.5", ranksep="5", fontname="helvetica"];\nnode [fontname = "helvetica"];\nrankdir=RL;\n#{block.call}\n}|
   end
 
   def cluster &block
