@@ -13,4 +13,8 @@ dependencies:
   - traRole
   Manage a Tenancy API:
   - TBC
+  Hackney API:
+  - access_tokens
+  Leasehold API:
+  - TBC
   
