@@ -6,6 +6,7 @@ class System
   attr_accessor :name
   attr_accessor :links
   attr_accessor :type
+  attr_accessor :data
   
   @systems = {}
 
@@ -23,6 +24,7 @@ class System
     self.name = name
     self.entities = []
     self.links = []
+    @data = {}
     self.type = "dependency"
   end
 
@@ -33,6 +35,7 @@ class System
   def configure(options)
     self.id ||= options['id']
     @url_prefix ||= options['url_prefix']
+    self.data = self.data.merge(options)
     
     if options.has_key? 'dependencies'
       options['dependencies'].each do |name, entities|

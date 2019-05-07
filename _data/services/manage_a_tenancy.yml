@@ -1,5 +1,16 @@
 name: Manage a Tenancy Service
 dependencies:
+  Manage a Tenancy Frontend API:
+  - transactions
+  - accounts
+  - areaPatch
+  - block
+  - contacts
+  - estate
+  - officerAccounts
+  - tra
+  - tenancyManagementInteractions
+  - traRole
   Manage a Tenancy API:
   - TBC
   

@@ -4,4 +4,17 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% if page.data.repository %}<div><h3>Repository</h3><a href="{{ page.data.repository }}">{{ page.data.repository }}</a></div>{% endif %}
+{% if page.data.maintainers %}
+<div>
+  <h3>Maintainers</h3>
+  <ul>
+  {% for maintainer in page.data.maintainers %}
+    <li>{{ maintainer | escape }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+{% if page.data.description %}<div>{{ page.data.description }}</div>{% endif %}
+{% if page.data.notes %}<div>{{ page.data.notes }}</div>{% endif %}
+
 {% graphviz %}{{page.graph}}{% endgraphviz %}

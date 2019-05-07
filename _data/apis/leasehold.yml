@@ -1,5 +1,6 @@
 name: Leasehold API
 repository: https://github.com/LBHackney-IT/LBHLeaseholdAPI
+description: Test description here
 maintainers:
 - Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
 - Rashmi Shetty <rashmi.shetty@hackney.gov.uk>

@@ -13,8 +13,8 @@ module Jekyll
       self.data['layout'] = 'system'
       self.data['title'] = system.name
       self.data['type'] = 'system'
-      self.data['system'] = system
       self.data['graph'] = GraphViz::generateDot(system.dependencies)
+      self.data['data'] = system.data
       true
     end
   end

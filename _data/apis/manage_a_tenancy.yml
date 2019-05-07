@@ -1,6 +1,8 @@
 name: Manage a Tenancy API
-repository: https://github.com/LBHackney-IT/Manage_a_tenancy_API
+repository: https://github.com/LBHackney-IT/ManageATenancyAPI
 maintainers:
 - Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
 - Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
-#dependencies:
+dependencies:
+  UHT:
+  - TBC
