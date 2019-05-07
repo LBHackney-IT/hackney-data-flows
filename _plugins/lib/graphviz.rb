@@ -2,13 +2,12 @@ require 'open3'
 
 module GraphViz
   def self.generateDot(systems)
-    graphData = diagraph do
+    diagraph do
       output = []
       systems.group_by(&:type).each do |type, systems|
         output << "subgraph cluster_#{type} {"
         output << 'style="filled";'
         output << "color=lightgrey;"
-        output << "node [style=filled,fillcolor=white];"
         output << 'rank="same"'
         output << systems.map{ |s| systemNodeName(s) }
         output << '}'
@@ -39,9 +38,9 @@ module GraphViz
 
   def self.systemNodeName(system, options={})
     if system.entities.length > 0
-      "#{system.id} [URL=\"#{system.url}\" label=\"{#{system.name} | {#{system.entities.map{ |e| entityNodeName(e) }.join('|')}}}\"];"
+      "#{system.id} [URL=\"#{system.url}\" label=<<table bgcolor=\"#FFFFFF\" border=\"0\" cellborder=\"1\" cellspacing=\"0\" ><tr><td cellpadding=\"4\">#{system.name}</td><td cellpadding=\"0\"><table border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">#{system.entities.map{ |e| "<tr><td port=\"#{e.id}\">#{e.name}</td></tr>" }.join('')}</table></td></tr></table>>];"
     else
-      "#{system.id} [URL=\"#{system.url}\" label=\"#{system.name}\"];"
+      "#{system.id} [URL=\"#{system.url}\" label=<<table bgcolor=\"#FFFFFF\" border=\"0\" cellborder=\"1\" cellspacing=\"0\" ><tr><td cellpadding=\"4\" port=\"#{system.id}\">#{system.name}</td></tr></table>>];"
     end
   end
 
@@ -58,7 +57,7 @@ module GraphViz
   end
   
   def self.diagraph &block
-    return %|digraph G {\nnode [shape=record];\ngraph [pad="0.5", ranksep="5", fontname="helvetica"];\nnode [fontname = "helvetica"];\nrankdir=RL;\n#{block.call}\n}|
+    return %|digraph G {\nnode [shape=plain margin=0 width=0 height=0];\ngraph [pad="0.5", ranksep="5", fontname="helvetica"];\nnode [fontname = "helvetica"];\nrankdir=RL;\n#{block.call}\n}|
   end
 
   def cluster &block
