@@ -5,6 +5,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - .gitignore
+- README.md
 system_mapping:
   enabled: true
   system_maps:
