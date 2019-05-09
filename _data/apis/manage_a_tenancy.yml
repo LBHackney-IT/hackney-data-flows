@@ -4,5 +4,18 @@ maintainers:
 - Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
 - Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
 dependencies:
-  UHT:
-  - TBC
+  CRM:
+  - Accounts
+  - AreaPatch
+  - Contacts
+  - ETRA Issues
+  - ETRA Meetings
+  - Tenancies
+  - Tenancy Management Interactions
+  UH Warehouse:
+  - block
+  Citizen Index:
+  - usp_SearchCitizenIndex
+  Manage a Tenancy Database:
+  - Estate
+  - TRA

@@ -1,7 +1,9 @@
 name: Manage a Tenancy Service
 dependencies:
   Manage a Tenancy Frontend API:
-  - transactions
+  - pageSchema
+  - pageSchemaData
+  Manage a Tenancy API:
   - accounts
   - areaPatch
   - block
@@ -10,11 +12,10 @@ dependencies:
   - officerAccounts
   - tra
   - tenancyManagementInteractions
-  - traRole
-  Manage a Tenancy API:
-  - TBC
   Hackney API:
   - access_tokens
+  NCC API:
+  - transactions
   Leasehold API:
   - TBC
   

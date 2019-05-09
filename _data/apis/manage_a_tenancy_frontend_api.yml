@@ -4,12 +4,11 @@ maintainers:
 - Rashmi Shetty <rashmi.shetty@hackney.gov.uk>
 - Mirela Georgieva <mirela.georgieva@hackney.gov.uk>
 dependencies:
-  UHT:
-  - property
   UHW Warehouse:
   - GetTagReferenceNumber
   UHW:
-  - usp_SearchCitizenIndex
   - usp_StartHackneyProcessV2
+  Citizen Index:
+  - usp_SearchCitizenIndex
   CRM:
-  - Contact
+  - Contacts

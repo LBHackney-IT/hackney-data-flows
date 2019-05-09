@@ -7,7 +7,7 @@ dependencies:
   UH Web Services:
   - TBC
   CRM:
-  - Contact
+  - Contacts
   - Action Diaries
   UHT:
   - araction
