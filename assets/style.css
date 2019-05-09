@@ -16,6 +16,13 @@ h2{
   color:#333;
 }
 
+h3{
+  font-size: 120%;
+  font-weight: bold;
+  margin:10px 0;
+  color:#333;
+}
+
 svg{
   height:inherit;
   width:inherit;
