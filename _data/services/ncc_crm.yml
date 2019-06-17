@@ -4,6 +4,10 @@ dependencies:
   Hackney API:
   - "CRMLookups"
   NCC API:
-  - TBC
+  - Action_diary
+  - rtrans
+  CRM:
+  - Contacts
+  - Accounts
   Manage a Tenancy API:
   - TBC

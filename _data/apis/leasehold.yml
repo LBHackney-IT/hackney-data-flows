@@ -7,3 +7,5 @@ maintainers:
 dependencies:
   CRM:
   - TBC
+  Citizen Index:
+  - usp_SearchCitizenIndex

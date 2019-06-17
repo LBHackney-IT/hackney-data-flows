@@ -5,3 +5,5 @@ maintainers:
 dependencies:
   CRM:
   - "Access Tokens"
+  Citizen Index:
+  - usp_SearchCitizenIndex

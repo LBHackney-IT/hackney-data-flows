@@ -32,3 +32,5 @@ dependencies:
   - TBC
   CRM:
   - Contacts
+  Citizen Index:
+  - usp_SearchCitizenIndex
